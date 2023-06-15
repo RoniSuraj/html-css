@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel"><!--sempre inserir começar com menor depois maior-->
+
+    </picture>
+
+    <h2>reproduzir audios </h2>
+    <p>Como inserir midia de audio </p>
+    <audio src="midia/Thumri - Sandeep Das, Anisha Roy, Bivakar Chaudhuri.mp3" autoplay controls></audio> <!-- quando nao for compativel usar site-->  
+    <audio>
+        <source src="midia/Kids Playing.mp3" type="audio/mp3">
+             <source src="midia/Kids Playing.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao suporta o audio <a href="midia/Kids Playing.mp3">clique aqui para baixar</a>  </p>
+    </audio>
+
+    <h2>Vamos trabalhar com videos </h2>
+
+    <!-- Para baixar imagens e videos tem o site pexels formatos mp4, m4v, webm, ogg  para converter usa hand brake-->
+
+
+    
+</body>
+</html>
