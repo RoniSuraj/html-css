@@ -1,0 +1,21 @@
+@charset 'UTF-8'
+/* Color Theme Swatches in Hex */
+.color-theme_Sem-título-1-hex { color: #F5F5F5; }
+.color-theme_Sem-título-2-hex { color: #223440; }
+.color-theme_Sem-título-3-hex { color: #33A691; }
+.color-theme_Sem-título-4-hex { color: #FFFFFF; }
+.color-theme_Sem-título-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_Sem-título-1-rgba { color: rgba(245, 245, 245, 1); }
+.color-theme_Sem-título-2-rgba { color: rgba(34, 52, 64, 1); }
+.color-theme_Sem-título-3-rgba { color: rgba(51, 166, 145, 1); }
+.color-theme_Sem-título-4-rgba { color: rgba(255, 255, 255, 1); }
+.color-theme_Sem-título-5-rgba { color: rgba(242, 242, 242, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_Sem-título-1-hsla { color: hsla(0, 0, 96, 1); }
+.color-theme_Sem-título-2-hsla { color: hsla(204, 30, 19, 1); }
+.color-theme_Sem-título-3-hsla { color: hsla(169, 52, 42, 1); }
+.color-theme_Sem-título-4-hsla { color: hsla(0, 0, 100, 1); }
+.color-theme_Sem-título-5-hsla { color: hsla(0, 0, 94, 1); }
