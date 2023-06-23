@@ -43,7 +43,7 @@ header, footer > p{
 header a, footer a{
     color: white;
     text-decoration: none;
-    font-weight: ;
+    font-weight: bolder;
 }
 
  header a:hover, footer a:hover{
@@ -64,6 +64,9 @@ header a, footer a{
     font-size: 3.5vw;
 
  }
+ section > p{
+    padding-bottom: 2em;
+ }
 
  section.normal{
         background-color: white;
@@ -79,4 +82,7 @@ header a, footer a{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.173);
 
+ }
+ section#img01{
+    background-image: ur
  }
