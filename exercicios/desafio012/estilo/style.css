@@ -15,13 +15,13 @@
 *{
     margin: 0%;
     padding: 0px;
-
-   
+  
 }
 Html, body{
     min-height: 100vh;
     background-color: darkgrey;
     font-family: var(--fonte1);
+    font-size: 1em;
 
 }
 header {
@@ -34,7 +34,7 @@ header {
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 5vw;
+    font-size: 3,5vw;
 
 }
 header, footer > p{
@@ -61,7 +61,7 @@ header a, footer a{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 2.5vw;
 
  }
  section > p{
@@ -76,13 +76,24 @@ header a, footer a{
  section.imagem{
     background-color: rgba(0, 0, 0, 0.776);
     color: white;
-    
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.526);
+    background-attachment: fixed;
+
  }
  section.imagem > P{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.173);
+    background-color: rgba(0, 0, 0, 0.463);
+    text-shadow: 1px 1px 0px black;
 
  }
  section#img01{
-    background-image: ur
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+  background-size: cover;
+    
+ }
+ Section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+   background-size: cover;
  }
