@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: black;
+        }
         header{
             height: 100px;
             background: rgb(2,0,36);
@@ -23,12 +26,54 @@
         #q1{
             background-image: linear-gradient( yellow,red
             );
-            ;
+            position: relative;
 
         }
+        #q11{
+        background-color: black;
+        width: 100px;
+        height: 150px;
+        padding: 10px;
+        margin: 10px;
+        position: absolute;
+        left: 10%;
+        right: 10%;
+        position: relative;
+       }
+       #q12{
+        background-color: white;
+         position: absolute;
+         left: 10%;
+         right: 10%;
+         width: 50px;
+         height: 50px;
+       }
         #q2{
             background-color: brown;
+            position:absolute
         }
+        #q21{
+            position: relative;
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: black;
+        }   
+        #q22{
+            
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border-radius: 520%;
+            left: 10%;
+            margin-top: 10%;
+            background-size: cover;
+            background-repeat: no-repeat;
+                
+        }
+        
+
         #q3{
             background color:  rgb(2,0,36);
             background: radial-gradient(circle, rgb(2, 0, 36) 0%, rgba(0,111,227,1) 100%);            
@@ -49,12 +94,7 @@
         #q7{}
         #q8{}
 
-       #q11{
-        width: 100px;
-        height: 150px;
-        padding: 0;
-        margin: 0;
-       }
+       
 
     </style>
 </head>
@@ -65,11 +105,17 @@
     </header>
     <main>
         <div id="q1">
-             <div id="q11"></div>
+             <div id="q11">
+                <div id="q12"></div>
+             </div>
         </div>     
                 
             
-        <div id="q2"></div> 
+        <div id="q2">
+            <div id="q21">
+                <div id="q22"> <img src="imagens/pattern004.png" alt=""></div>
+            </div>
+        </div> 
         <div id="q3"></div> 
         <div id="q4"></div>
         <div id="q5"></div>
