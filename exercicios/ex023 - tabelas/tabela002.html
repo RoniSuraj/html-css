@@ -9,9 +9,18 @@
             font-family: Arial, Helvetica, sans-serif;
            
         }
+          tbody> tr:nth-child(2nd){ 
+             background-color: rgb(196, 175, 175);
+            /* 2n a cada 2 linhas
+                odd apenas impar ou 2n 
+                even e par  ou 2n-1 */
+
+          }
+            
         table{
              width: 500px;
              border-collapse: collapse;
+             position: relative;
 
         }
         Td, th {
@@ -28,11 +37,19 @@
         td.num{
             text-align: right;
         }
+       caption{
+            
+            font-size: 1.5 em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
         
     </STyle>
 <!-- 
     Anatomia das tabelas grandes 
     table
+        Caption legendas 
         THEARD
             tr, td, th
         TBODY
@@ -44,12 +61,12 @@
 </head>
 <body>
     <table>
+        <caption> População por Estados</caption>
         <thead>
             <tr>
-                <th> Estado </th>  
-                <th> População</th>       
-               
-            </tr>
+                <th scope="col"> Estado </th>  
+                <th scope="col" style="width: 50px;"> População</th>  
+                </tr>
         </thead>
     
         <tbody>
@@ -91,7 +108,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th> Total de habitantes</th>
+                <th scope="row"> Total de habitantes</th>
                 <td  class="num"><strong>0000</strong></td>
             </tr>
         </tfoot>
