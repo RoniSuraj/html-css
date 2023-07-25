@@ -45,8 +45,9 @@ body, ul, li, p {
 .flex{
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    padding: 20px;
 }
 
 .flex> div{
