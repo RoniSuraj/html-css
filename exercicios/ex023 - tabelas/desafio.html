@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio tabela</title>
+    <style>
+        Body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td{
+            text-align: center;
+        }
+        col.cnome{
+            background-color: aqua;
+        }
+        col.csexo{
+            background-color: yellow;
+        }
+        col.cgrupo{
+            background-color: rgb(226, 95, 43);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cgrupo"span="2">
+              
+            */podemos inserir col class cgrupo span numero de coluna    
+
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col"> Nome</th>
+            <th scope="col"> Sexo</th>
+            <th scope="col"> Idade</th>
+            <th scope="col"> Profissão</th>
+        </tr>
+        <tr>
+            <td> Ana Maria</td>
+            <td> F</td>
+            <td> 25</td>
+            <td> Jornalista</td>
+        </tr>
+        <tr>
+            <td> Gustavo</td>
+            <td> M</td>
+            <td> 35</td>
+            <td> Professor</td>
+        </tr>
+        <tr>
+            <td> Helio</td>
+            <td> M</td>
+            <td> 45</td>
+            <td> Vendedor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td> F</td>
+            <td> 26</td>
+            <td> Médica</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td> 26</td>
+            <td> Médico</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
